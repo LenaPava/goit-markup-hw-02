@@ -113,6 +113,11 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: var(--alt-title-cl);
+  color: var(--accent-cl);
+}
+
 .btn-pf {
   font-weight: 500;
   font-weight: bold;
@@ -125,7 +130,7 @@ body {
 }
 
 .btn-pf:hover,
-.btn:focus {
+.btn-pf:focus {
   background-color: var(--accent-cl);
   color: var(--alt-title-cl);
 }
